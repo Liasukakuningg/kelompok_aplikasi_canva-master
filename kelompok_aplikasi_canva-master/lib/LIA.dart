@@ -92,9 +92,7 @@ class _CanvaExactPageState extends State<CanvaExactPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
 
-                  // ===============================
-                  // 🔹 EXPLORE TEMPLATES (GRID ATAS)
-                  // ===============================
+                  // EXPLORE TEMPLATES
                   const Padding(
                     padding: EdgeInsets.all(16),
                     child: Text(
@@ -183,9 +181,7 @@ class _CanvaExactPageState extends State<CanvaExactPage> {
 
                   const SizedBox(height: 32),
 
-                  // ===============================
-                  // 🔹 MORE TEMPLATES FOR YOU
-                  // ===============================
+                  // MORE TEMPLATES FOR YOU
                   const Padding(
                     padding: EdgeInsets.symmetric(horizontal: 16),
                     child: Text(
@@ -220,9 +216,6 @@ class _CanvaExactPageState extends State<CanvaExactPage> {
                             scale: isPressed ? 0.95 : 1,
                             duration: const Duration(milliseconds: 120),
 
-                            // ===============================
-                            // ⬇⬇⬇ DI SINI NANTI FOTO MASUK ⬇⬇⬇
-                            // ===============================
                             child: Container(
                               width: 280,
                               margin: const EdgeInsets.only(right: 14),
